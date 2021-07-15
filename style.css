@@ -29,11 +29,12 @@ h1, h2, h3, p {
 a {
     text-decoration: none;
     color: white;
-    letter-spacing: 2px;
+    font-weight: 900;
+    letter-spacing: 3px;
 }
 .menu a:hover {
     color:black;
-    transition: all 0.4s;
+    transition: all 0.5s;
 }
 .header {
     margin: 0;
@@ -157,4 +158,10 @@ a {
 }
 .container-footer p {
     color: white;
+}
+ 
+@media screen (max-width: 425px) {
+    body {
+        background-color: black;
+    }
 }
