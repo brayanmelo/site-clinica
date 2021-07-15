@@ -209,6 +209,18 @@ a {
         color: rgb(42, 112, 190);
         font-weight: 900;
     }
+    .box-right ul {
+        margin: 30px 10px 0px 10px;
+    }
+    #container-sobre .linha {
+        margin-top: 20px;
+    }
+    footer p {
+        font-size: 20px;
+        background-color: black;
+    }
+
+
 }
 
 
